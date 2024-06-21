@@ -31,5 +31,5 @@ function updateUI(){
 			line.classList.remove("active");
 	})
 	prevButton.disabled = currentActive === 1;
-	nextButton.disbled = currentActive === circle.length;
+	nextButton.disabled = currentActive === circle.length;
 }
